@@ -3,74 +3,57 @@
     color: rgba(51, 49, 49, 0.459);
     font-size: 16px;
     font-weight: 400;
-    width: 0px;
-    height: 0px;
 }
 
-
-
-#titulo_grande {
-    font-size: 24px;
-    color: black;
-    font-weight:800;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-div {
-    background-color: blue;
+img {
     width: 100px;
-    height: 100px;
-    border: 10px solid crimson;
+    height: auto;
 }
 
-.flexbox1 {
-    display: inline-block;
-}
-
-#bloque1 {
-    background-color: rgb(40, 40, 192);
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-    margin-top: 10px;
-}
-
-#bloque2 {
-    background-color: rgb(126, 17, 17);
-    width: 100px;
-    height: 100px;
+header {
+    background-color: rgb(73, 109, 19);
+    -webkit-box-shadow: -9px 20px 25px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -9px 20px 25px 1px rgba(0,0,0,0.75);
+    box-shadow: -9px 20px 25px 1px rgba(0,0,0,0.75);
     padding: 10px;
-    margin-top: 10px;
+    border-radius: 5px;
+
+}
+/*
+nav {
+    background-color: burlywood;
+    
+}
+/*
+ul {
+    
+    background-color: black;
+    height: auto;
+}
+*/
+
+nav ul {
+    margin-top: 40px;
+    margin-right: 100px;
+    float:right;
 }
 
-#bloque3 {
-    background-color: rgb(189, 189, 17);
-    width: 100px;
-    height: 100px;
+
+ul li {
+    display: inline;
+    /*background-color: rgba(23, 23, 182, 0.788);*/
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+
+    margin-left: 10px;
+    margin-top: 30px;
     padding: 10px;
-    margin-top: 10px;
 }
 
-#bloque4 {
-    background-color: rgb(32, 134, 32);
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    margin-top: 10px;
+ul li:hover {
+    background-color: aqua;
+    color: chocolate;
 }
 
-#bloque5 {
-    background-color: rgb(201, 74, 201);
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-#bloque6 {
-    background-color:aqua;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-    margin-top: 10px;
-}

@@ -1,0 +1,76 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(51, 49, 49, 0.459);
+    font-size: 16px;
+    font-weight: 400;
+    width: 0px;
+    height: 0px;
+}
+
+
+
+#titulo_grande {
+    font-size: 24px;
+    color: black;
+    font-weight:800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: 10px solid crimson;
+}
+
+.flexbox1 {
+    display: inline-block;
+}
+
+#bloque1 {
+    background-color: rgb(40, 40, 192);
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#bloque2 {
+    background-color: rgb(126, 17, 17);
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#bloque3 {
+    background-color: rgb(189, 189, 17);
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#bloque4 {
+    background-color: rgb(32, 134, 32);
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#bloque5 {
+    background-color: rgb(201, 74, 201);
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#bloque6 {
+    background-color:aqua;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+}

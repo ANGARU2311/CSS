@@ -1,0 +1,73 @@
+header {
+    background-color: cadetblue;
+    height: 60px;
+}
+
+.contenedor ul, .contenedor label, .contenedor input {
+    float: right;
+}
+
+.contenedor label {
+    color: white;
+    margin-top: -52px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.contenedor label, .contenedor input {
+    display: none;
+}
+
+.contenedor ul {
+    margin-top:  -35px;
+}
+
+.contenedor ul li{
+    display: inline;
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.contenedor a {
+    color: white;
+}
+
+.contenedor h1 {
+        font-size: 35px;
+        padding: 5px;
+        margin-left: 20px;
+}
+
+/* Medias Querys */
+
+@media(max-width: 767px) {
+    .contenedor ul {
+        /*Esto aparece el menu*/
+        background-color: rgb(20, 121, 121);
+        width: 100%;
+        height: 30vh;
+        margin-top: 3px;
+        
+        /*Por esta linea que sigue no podemos ver el menu*/
+        /*Esta parte es para esconder el ul una vez aparezca el menu*/
+        transform: translateX(-100%);
+    }
+
+    .contenedor input:checked ~ .lista {
+        transform: translateX(0%);
+        transition:  all .5s;
+    }
+
+    .contenedor ul li {
+        display: block;
+        padding: 10px;
+        margin-left: 20px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.51);     
+    }
+
+    .contenedor label {
+        display: block;
+    }
+
+}
